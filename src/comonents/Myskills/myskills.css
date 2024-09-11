@@ -1,0 +1,42 @@
+#mySkills{
+    min-height: calc(100vh-4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 1rem;
+
+}
+.mySkillHeading{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+.mySkillBoxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    max-width: 65rem;
+    flex-wrap: wrap;
+    /* margin: 2rem 2rem; */
+}
+.mySkillBox{
+ padding: 0.75rem 0.75rem;
+ background: rgb(150,150,150);
+ border: none;
+ border-radius: 0.5rem;
+ margin: 0.75rem 0.75rem;
+}
+
+.mySkillsImg{
+    object-fit: cover;
+    width: 8rem;
+    height: 8rem;
+
+}
